@@ -1,0 +1,39 @@
+{
+   "version":"2.0",
+   "routeKey":"DELETE /categories",
+   "rawPath":"/categories",
+   "rawQueryString":"",
+   "headers":{
+      "accept":"*/*",
+      "accept-encoding":"gzip, deflate, br",
+      "content-length":"93",
+      "content-type":"application/json",
+      "host":"fb1v5uqq90.execute-api.us-east-2.amazonaws.com",
+      "postman-token":"d97ffa1e-6e5b-4141-8e32-30adaf7049c1",
+      "user-agent":"PostmanRuntime/7.28.2",
+      "x-amzn-trace-id":"Root=1-640a460e-3631ffdb4551c7a522881115",
+      "x-forwarded-for":"162.204.15.64",
+      "x-forwarded-port":"443",
+      "x-forwarded-proto":"https"
+   },
+   "requestContext":{
+      "accountId":"213231460839",
+      "apiId":"fb1v5uqq90",
+      "domainName":"fb1v5uqq90.execute-api.us-east-2.amazonaws.com",
+      "domainPrefix":"fb1v5uqq90",
+      "http":{
+         "method":"DELETE",
+         "path":"/categories",
+         "protocol":"HTTP/1.1",
+         "sourceIp":"162.204.15.64",
+         "userAgent":"PostmanRuntime/7.28.2"
+      },
+      "requestId":"Bh_iRgCfiYcEJSQ=",
+      "routeKey":"DELETE /categories",
+      "stage":"$default",
+      "time":"09/Mar/2023:20:48:14 +0000",
+      "timeEpoch":1678394894201
+   },
+   "body":"{\n    \"category\": \"Test\",\n    \"val\": [\n        \"val1\",\n        \"val2\"]\n}",
+   "isBase64Encoded":false
+}
