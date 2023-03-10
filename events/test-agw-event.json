@@ -2,19 +2,21 @@
    "version":"2.0",
    "routeKey":"DELETE /categories",
    "rawPath":"/categories",
-   "rawQueryString":"",
+   "rawQueryString":"category=Test",
    "headers":{
       "accept":"*/*",
       "accept-encoding":"gzip, deflate, br",
-      "content-length":"93",
-      "content-type":"application/json",
+      "content-length":"0",
       "host":"fb1v5uqq90.execute-api.us-east-2.amazonaws.com",
-      "postman-token":"d97ffa1e-6e5b-4141-8e32-30adaf7049c1",
+      "postman-token":"8369f109-f792-4322-9b29-61ba1e4335e1",
       "user-agent":"PostmanRuntime/7.28.2",
-      "x-amzn-trace-id":"Root=1-640a460e-3631ffdb4551c7a522881115",
+      "x-amzn-trace-id":"Root=1-640b72c7-632dd6427756cce026ba2764",
       "x-forwarded-for":"162.204.15.64",
       "x-forwarded-port":"443",
       "x-forwarded-proto":"https"
+   },
+   "queryStringParameters":{
+      "category":"Test"
    },
    "requestContext":{
       "accountId":"213231460839",
@@ -28,12 +30,11 @@
          "sourceIp":"162.204.15.64",
          "userAgent":"PostmanRuntime/7.28.2"
       },
-      "requestId":"Bh_iRgCfiYcEJSQ=",
+      "requestId":"Bk7fMhSLiYcEMgQ=",
       "routeKey":"DELETE /categories",
       "stage":"$default",
-      "time":"09/Mar/2023:20:48:14 +0000",
-      "timeEpoch":1678394894201
+      "time":"10/Mar/2023:18:11:19 +0000",
+      "timeEpoch":1678471879338
    },
-   "body":"{\n    \"category\": \"Test\",\n    \"val\": [\n        \"val1\",\n        \"val2\"]\n}",
    "isBase64Encoded":false
 }
